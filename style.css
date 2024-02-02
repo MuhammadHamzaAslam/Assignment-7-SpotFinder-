@@ -1,0 +1,229 @@
+
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+}
+.cart{
+    height:25px;
+    width:25px;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 37px;
+    height: 30px;
+    width: 90px;
+} 
+.name{
+    font-size: 38px;
+    margin-top: -20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: gray;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    height: 80px;
+    /* position: fixed;
+    z-index: 1px; */
+    width: 100%;
+}
+.no2{
+    height: 530px;
+    width: 1150px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #F5FAFF;
+    margin-left: 80px;
+}
+.Parking{
+    display: inline-block;
+    text-align: left;
+    margin-left: 45px;
+    font-size: 35pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Simplified{
+    display: inline-block;
+    color: red; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35pt;
+    margin-left: 15px;
+    text-align: left;
+}
+.p1{
+    margin-top: -10px;
+    font-size: 20pt;
+    margin-left: 45px;
+    color: gray;
+}
+input{
+    margin-left: 45px; 
+    height: 60px;
+    width: 500px;
+    border: 1px solid red;
+}
+select{
+    height: 65px;
+    width: 506px;
+    margin-left: 45px;
+    border: 1px solid red;
+}
+.in{
+    width: 230px;
+    height: 65px;
+    margin-left: 45px;
+}
+.out{
+    width: 230px;
+    height: 65px;
+    margin-left: 35px;
+}
+.park1{
+    float: right;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.booking{
+    margin-left: 45px;
+    color: red;
+    font-size: 14pt;
+    margin-top: 5px;
+}
+.date{
+    height: 60px;
+    width: 300px;
+    margin-left: 45px;
+    background-color: #D1D5DB;
+    color: black;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+.where{
+    text-align: center;
+}
+.car{
+    text-align: center;
+    color: gray;
+}
+.cards{
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 45px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.city-parking{
+    height: 140px;
+    width:350px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.city{
+    text-align: center;
+    margin-top: 5px;
+    color:rgba(0, 0, 0, 0.829);
+}
+.find{
+    height: 50px;
+    width: 150px;
+    background-color: #EF4444;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.cards1{
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 45px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.cards2{
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 45px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#no3{
+    height: 530px;
+    width: 1150px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #E23744;
+    margin-left: 80px;  
+    /* border: 1px solid black;  */
+}
+h1.spot{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.p10{
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+}
+.id-card{
+    height: 330px;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.clock{
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+}
+.Fast{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.p11{
+    font-size: 15pt;
+    text-align: center;
+}
+.id-card1{
+    height: 330px;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.id-card2{
+    height: 330px;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.airport{
+    text-align: center;
+}
