@@ -11,16 +11,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff; 
-    padding: 10px 50px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding-left: auto; 
+    position: fixed;
     z-index: 1; 
+    width: 95vw;
+    top: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
 }
+.location{
+    background: url(img/location.png) no-repeat left center  ;
+    background-size: 20px;
 
-.logo {
-    width: 80px;
-    height: 80px;
-    margin-left: -35px;
-    margin-top: -45px;
 }
 
 ul {
@@ -28,7 +29,25 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+.a1{
+    background: url(img/car.svg) no-repeat left center  ;
+    background-size: 20px;
 
+}
+.in{
+    background: url(img/out.png) no-repeat left center  ;
+    background-size: 50px;  
+}
+.out{
+    background: url(img/out.png) no-repeat left center  ;
+    background-size: 50px;  
+}
+select{
+    padding-left: 30px;
+}
+::placeholder{
+    padding-left: 40px;
+}
 li {
     padding: 0 20px;
 }
@@ -57,7 +76,7 @@ button {
 .no2{
     height: 530px;
     width: 1150px;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 10px;
     background-color: #F5FAFF;
     margin-left: 80px;
@@ -252,7 +271,7 @@ h1.spot{
     font-family: "Arial bold";
 }
 .days{
-    height: 310px;
+    height: 350px;
     width: 280px;
     border: 1px solid rgba(0, 0, 0, 0.445);
     border-radius: 10px;
@@ -283,7 +302,7 @@ h1.spot{
 #anonymous{
     height: 220px;
     width: 500px;
-    border: 1px solid rgba(0, 0, 0, 0.308);
+    border: 1px solid rgba(0, 0, 0, 0.13);
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 8px;
