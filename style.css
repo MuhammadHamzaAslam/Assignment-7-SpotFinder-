@@ -14,9 +14,10 @@ nav {
     padding-left: auto; 
     position: fixed;
     z-index: 1; 
-    width: 95vw;
+    width: 100vw;
     top: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    height: 65px;
 }
 .location{
     background: url(img/location.png) no-repeat left center  ;
@@ -55,10 +56,13 @@ li {
     height: 25px;
     width: 25px;
 }
+
 a {
     text-decoration: none;
-    color: black; 
+    color: gray; 
     font-weight: bold;
+    font-family: "Arial";
+    font-size: 12px;
 }
 a:hover{
     color: red;
